@@ -1,8 +1,14 @@
 # Provider can be any vendor depend on client google,azure etc
+variable "aaccess_key" {
+  
+}
+variable "asecret_key" {
+  
+}
 provider "aws" {
   region = "us-east-1"
-  access_key = "xxx"
-  secret_key = "xxx"
+  access_key = var.aaccess_key
+  secret_key = var.asecret_key
 }
 
 # SG to allow port 22 443 80
