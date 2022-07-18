@@ -1,7 +1,7 @@
-### What it does
+### What it does?
 It create vpc, igw, security group and other related resources.
 
-### What i learned
+### What i learned?
 - Terraform
 - AWS Compute
 - VPC
